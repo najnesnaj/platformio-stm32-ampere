@@ -27,3 +27,16 @@ and type pio run
 firmware.bin is somewhere under .pioenvs directory
 
 platformio stm32 discovery amperemeter 
+
+
+
+============================
+to get data on serial port, connect PA9 AND PA10
+
+
+on orange pi adapt armbianEnv -- overlays = uart1 uart3
+
+
+this gets you an extra port /dev/ttyS3
+
+============================

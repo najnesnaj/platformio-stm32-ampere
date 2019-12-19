@@ -48,6 +48,7 @@ void loop(void) {
   u8g2.print(" min");
   u8g2.sendBuffer();
   delay(3000);
+  Serial.println("ATCnetz.de");
 }
 
 void getmessaure(  )
